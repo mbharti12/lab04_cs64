@@ -2,7 +2,7 @@
 #
 
 .data
-    prompt: .asciiz "Enter an integer:\n"
+    prompt: .asciiz "Enter the next number:\n"
     end1: .asciiz "Minimum: "
     end2: .asciiz "\n"
 
