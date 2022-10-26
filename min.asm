@@ -43,6 +43,7 @@ main:
 
 first_less_than_second:
     blt $t0, $t2, first_less_than_third
+    j else
 
 first_less_than_third:
     li $v0, 4      
